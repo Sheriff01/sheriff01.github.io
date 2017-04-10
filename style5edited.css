@@ -20,8 +20,8 @@ body{
 body {background: url(image2/bird-on-sand.jpg); 
  } 
 
-.body{
-    background: url(image2/pow.jpg);
+#body{
+    background: url(image2/pow-1.jpg);
   }
 
 #skyblue {
