@@ -20,8 +20,8 @@ body{
 body {background: url(image2/bird-on-sand.jpg); 
  } 
 
-#celly-1 {
-    background: url(image2/msf.jpg);
+#celly1{
+    background: url(image2/msf-1.jpg);
   }
 
 #skyblue {
@@ -76,6 +76,10 @@ header {
   height:100px;
   border-bottom:#e8491d 3px solid;
   background: url(image2/salone3.jpg); 
+}
+
+#cellyheader {
+  background: url(image2/salone3.jpg)
 }
 /*======GALLERY HEADER====*/
 #None-fix-header {
@@ -313,8 +317,9 @@ footer#second {
   border-top: 5px solid  blue;
   height: 50px;
   opacity: 0.70;
-}  
-  #second p{text-align: center;
+}
+
+#second p{text-align: center;
 }
 .sec {
   float: left;
@@ -322,11 +327,14 @@ footer#second {
   width: 29%;
   text-align: center;
 }
+
 ul.contact li{
   display: inline;
 
 }
+
 .contact{
+  margin-left: -20%;
   list-style:none;
   text-align: center;
 }
@@ -528,7 +536,7 @@ cycle-slideshow {
   display: block;
 }
 .wrapper:hover img{
-  transform: scale(2,2) rotate(50deg) 
+  transform : scale(2,2) rotate(50deg) 
 }
 .content{
   width: 100%;
