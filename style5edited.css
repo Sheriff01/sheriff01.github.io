@@ -5,25 +5,26 @@ body{
   background-color:#f4f4f4;
 }
 
-
 .container {
    background-colorgreen;
    min-width:94%;
-   width100%;
+   /*width100%;
      margin:auto;
      margin-left:auto;
      margin-right:auto;
      border5px solid red;
-     overflow: hidden;
+     overflow: hidden;*/
 
-     }
-   body{background-image:url("Image2/SEA/bird-on-sand.jpg"); 
+}
+
+body {background: url(image2/bird-on-sand.jpg); 
  } 
-  #back{
+
+#celly-1 {
     background: url(image2/msf.jpg);
   }
 
-  #skyblue{
+#skyblue {
     background:#029bc9
   }
 /* Global */
@@ -74,7 +75,7 @@ header {
   padding-top30px;
   height:100px;
   border-bottom:#e8491d 3px solid;
-  background: url(Images/salone3.jpg); 
+  background: url(image2/salone3.jpg); 
 }
 /*======GALLERY HEADER====*/
 #None-fix-header {
@@ -176,7 +177,7 @@ li>a:hover{
 #showcase{
 
   height:460px;
-  background:url('showcase.jpg') no-repeat 0 -400px;
+  background:url('image2/showcase.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
   border-bottom:#e8491d 3px solid;
