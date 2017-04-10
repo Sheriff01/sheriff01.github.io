@@ -14,19 +14,20 @@ body{
      margin-right:auto;
      border5px solid red;
      overflow: hidden;*/
-
 }
 
 body {background: url(image2/bird-on-sand.jpg); 
  } 
 
-#body{
-    background: url(image2/pow-1.jpg);
-  }
 
 #skyblue {
     background:#029bc9
   }
+
+#msfebola{
+    background: url(image2/pow-msf.jpg);
+  }
+
 /* Global */
 .container{
   width:80%;
